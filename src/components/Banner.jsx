@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from './Container'
-import { FaEnvelope, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 import { FaRegFolder, FaCode, FaLinkedinIn } from "react-icons/fa6";
 import img from "../assets/img.png"
 import ParticlesBackground from './ParticlesBackground';
