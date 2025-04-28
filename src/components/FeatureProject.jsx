@@ -11,23 +11,23 @@ const FeatureProject = () => {
                     <div>
                         <section className="text-center py-16 px-4 ">
 
-                            <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4">
+                            <div data-aos="fade-up"  className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4">
                                 <FaCircle className="text-[8px] text-blue-500" />
                                 Showcasing My Work
                             </div>
 
 
-                            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                            <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                                 Featured Projects
                             </h2>
 
 
-                            <p className="text-gray-600 text-base max-w-2xl mx-auto mb-6">
+                            <p data-aos="fade-up" className="text-gray-600 text-base max-w-2xl mx-auto mb-6">
                                 Explore my latest web development projects showcasing modern technologies and design principles.
                             </p>
 
 
-                            <a
+                            <a data-aos="fade-up"
                                 href="#"
                                 className="text-blue-600 font-medium text-sm inline-flex items-center gap-1 hover:underline"
                             >
@@ -38,7 +38,7 @@ const FeatureProject = () => {
 
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 sm:px-6 lg:px-8">
-                        <div ><div className=" w-[85%] bg-white rounded-3xl shadow overflow-hidden group transition-all mx-auto duration-300 hover:scale-105 hover:shadow-2xl">
+                        <div data-aos="fade-up" ><div  className=" w-[85%] bg-white rounded-3xl shadow overflow-hidden group transition-all mx-auto duration-300 hover:scale-105 hover:shadow-2xl">
 
                             <div className="relative">
                                 <img
@@ -109,7 +109,7 @@ const FeatureProject = () => {
                                 </div>
                             </div>
                         </div></div>
-                        <div ><div className=" w-[85%] bg-white rounded-3xl shadow overflow-hidden group transition-all mx-auto duration-300 hover:scale-105 hover:shadow-2xl">
+                        <div data-aos="fade-up" ><div  className=" w-[85%] bg-white rounded-3xl shadow overflow-hidden group transition-all mx-auto duration-300 hover:scale-105 hover:shadow-2xl">
 
                             <div className="relative">
                                 <img
@@ -180,7 +180,7 @@ const FeatureProject = () => {
                                 </div>
                             </div>
                         </div></div>
-                        <div ><div className=" w-[85%] bg-white rounded-3xl shadow overflow-hidden group transition-all mx-auto duration-300 hover:scale-105 hover:shadow-2xl">
+                        <div data-aos="fade-up" ><div  className=" w-[85%] bg-white rounded-3xl shadow overflow-hidden group transition-all mx-auto duration-300 hover:scale-105 hover:shadow-2xl">
 
                             <div className="relative">
                                 <img

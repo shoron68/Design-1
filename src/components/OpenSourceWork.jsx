@@ -22,23 +22,23 @@ const OpenSourceWork = () => {
                     <div>
                         <section className="text-center py-16 px-4 ">
 
-                            <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4">
+                            <div data-aos="fade-up" className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4">
                                 <FaCircle className="text-[8px] text-blue-500" />
                                 Community Contributions
                             </div>
 
 
-                            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                            <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                                 Open Source Work
                             </h2>
 
 
-                            <p className="text-gray-600 text-base max-w-2xl mx-auto mb-6">
+                            <p data-aos="fade-up" className="text-gray-600 text-base max-w-2xl mx-auto mb-6">
                                 Explore my contributions to open source projects and the developer community.
                             </p>
 
 
-                            <a
+                            <a data-aos="fade-up"
                                 href="#"
                                 className="text-blue-600 font-medium text-sm inline-flex items-center gap-1 hover:underline"
                             >
@@ -49,7 +49,7 @@ const OpenSourceWork = () => {
                     <div className=" ">
 
                     <Slider {...settings}>
-                    <div>
+                    <div data-aos="fade-up">
                     <div className="mx-[40px] bg-[#fff] pb-[30px] rounded-2xl">
                         <div className="flex justify-between mx-[20px] items-center">
                             <div className="flex ">
@@ -98,7 +98,7 @@ const OpenSourceWork = () => {
                     </div>
                     </div>
         </div>
-                    <div>
+                    <div data-aos="fade-up">
                     <div className="mx-[40px] bg-[#fff] pb-[30px] rounded-2xl">
                         <div className="flex justify-between mx-[20px] items-center">
                             <div className="flex ">
@@ -147,7 +147,7 @@ const OpenSourceWork = () => {
                     </div>
                     </div>
         </div>
-                    <div>
+                    <div data-aos="fade-up">
                     <div className="mx-[40px] bg-[#fff] pb-[30px] rounded-2xl">
                         <div className="flex justify-between mx-[20px] items-center">
                             <div className="flex ">
@@ -196,7 +196,7 @@ const OpenSourceWork = () => {
                     </div>
                     </div>
         </div>
-                    <div>
+                    <div data-aos="fade-up">
                     <div className="mx-[40px] bg-[#fff] pb-[30px] rounded-2xl">
                         <div className="flex justify-between mx-[20px] items-center">
                             <div className="flex ">
@@ -245,7 +245,7 @@ const OpenSourceWork = () => {
                     </div>
                     </div>
         </div>
-                    <div>
+                    <div data-aos="fade-up">
                     <div className="mx-[40px] bg-[#fff] pb-[30px] rounded-2xl">
                         <div className="flex justify-between mx-[20px] items-center">
                             <div className="flex ">

@@ -18,23 +18,23 @@ const Skill = () => {
         <div >
                                 <section className="text-center py-16 px-4 ">
         
-                                    <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4">
+                                    <div data-aos="fade-up" className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4">
                                         <FaCircle className="text-[8px] text-blue-500" />
                                         Technical Expertise
                                     </div>
         
         
-                                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                                    <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                                     Skills & Technologies
                                     </h2>
         
         
-                                    <p className="text-gray-600 text-base  mx-auto mb-6">
+                                    <p data-aos="fade-up" className="text-gray-600 text-base  mx-auto mb-6">
                                     A comprehensive overview of my technical skills and areas of expertise in web development.ciples.
                                     </p>
         
         
-                                    <a
+                                    <a data-aos="fade-up"
                                         href="#"
                                         className="text-blue-600 font-medium text-sm inline-flex items-center gap-1 hover:underline"
                                     >
@@ -44,7 +44,7 @@ const Skill = () => {
                             </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 sm:px-6 lg:px-8 pb-[50px]">
-    <div className="">
+    <div data-aos="fade-up" className="">
         <div className="max-w-md mx-auto p-6 bg-[#ffffff4b] rounded-2xl shadow-lg group hover:scale-103 duration-300">
             <div className="mb-6">
                 <h2 className="text-xl font-semibold text-gray-800 font-popins text-center group-hover:text-[#4f39f6] duration-200">Frontend Development</h2>
@@ -79,7 +79,7 @@ const Skill = () => {
             {/* TypeScript */}
             <div className="py-7 rounded-2xl  bg-[#ffffffa9] px-2 hover:bg-[#fff]">
                 <div className="flex justify-between items-center mb-1">
-                    <div className="flex items-center gap-2 text-sm font-medium text-gray-800">
+                    <div  className="flex items-center gap-2 text-sm font-medium text-gray-800">
                         <TbBrandTypescript className="text-[#4f39f667] text-[24px] group-hover:text-[#4f39f6] duration-300" />
                         TypeScript
                     </div>
@@ -132,7 +132,7 @@ const Skill = () => {
 
 
 
-    <div className="">
+    <div data-aos="fade-up" className="">
         <div className="max-w-md mx-auto p-6 bg-[#ffffff4b] rounded-2xl shadow-lg group hover:scale-103 duration-300">
             <div className="mb-6">
                 <h2 className="text-xl font-semibold text-gray-800 font-popins  group-hover:text-[#4f39f6] duration-200">Backend Development</h2>
@@ -216,7 +216,7 @@ const Skill = () => {
     </div>
 
 
-    <div className="">
+    <div data-aos="fade-up" className="">
         <div className="max-w-md mx-auto p-6 bg-[#ffffff4b] rounded-2xl shadow-lg group hover:scale-103 duration-300">
             <div className="mb-6">
                 <h2 className="text-xl font-semibold text-gray-800 font-popins  group-hover:text-[#4f39f6] duration-200">Databases</h2>
@@ -226,7 +226,7 @@ const Skill = () => {
             </div>
 
             
-           <div className="">
+           <div  className="">
            <div className="py-7 rounded-2xl  bg-[#ffffffa9] px-2 hover:bg-[#fff]" >
                 <div className="flex justify-between items-center mb-1">
                     <div className="flex items-center gap-2 text-sm font-medium font-popins text-gray-800">

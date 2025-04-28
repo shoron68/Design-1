@@ -23,18 +23,18 @@ const ClientFeedback = () => {
                         <div>
                             <section className="text-center lg:py-16 py-[30px] px-4 ">
 
-                                <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-100 text-[#8C15DE] text-sm font-medium mb-4">
+                                <div data-aos="fade-up"  className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-100 text-[#8C15DE] text-sm font-medium mb-4">
                                     <FaCircle className="text-[8px] text-[#8C15DE]" />
                                     Client Feedback
                                 </div>
 
 
-                                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                                <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                                     What People Say
                                 </h2>
 
 
-                                <p className="text-gray-600 text-base max-w-2xl mx-auto mb-6">
+                                <p data-aos="fade-up" className="text-gray-600 text-base max-w-2xl mx-auto mb-6">
                                     Hear from clients and collaborators about their experience working with me.
                                 </p>
                             </section>
@@ -43,10 +43,10 @@ const ClientFeedback = () => {
 
 
 
-                            <Slider {...settings}>
+                            <Slider {...settings} >
 
-                                <div className="">
-                                    <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mx-auto  w-[95%] max-w-2xl relative">
+                                <div  data-aos="fade-up" className="">
+                                    <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mx-auto  w-[95%]  relative">
                                         <svg
                                             className="absolute top-3 sm:top-4 lg:top-6 left-3 sm:left-4 lg:left-6 w-5 sm:w-6 h-5 sm:h-6 text-purple-300"
                                             fill="currentColor"
@@ -72,8 +72,8 @@ const ClientFeedback = () => {
                                     </div>
 
                                 </div>
-                                <div className="">
-                                    <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mx-auto w-[95%] max-w-2xl relative">
+                                <div data-aos="fade-up" className="">
+                                    <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mx-auto w-[95%]  relative">
                                         <svg
                                             className="absolute top-3 sm:top-4 lg:top-6 left-3 sm:left-4 lg:left-6 w-5 sm:w-6 h-5 sm:h-6 text-purple-300"
                                             fill="currentColor"
@@ -99,8 +99,8 @@ const ClientFeedback = () => {
                                     </div>
 
                                 </div>
-                                <div className="">
-                                    <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mx-auto w-[95%] max-w-2xl relative">
+                                <div data-aos="fade-up" className="">
+                                    <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mx-auto w-[95%]  relative">
                                         <svg
                                             className="absolute top-3 sm:top-4 lg:top-6 left-3 sm:left-4 lg:left-6 w-5 sm:w-6 h-5 sm:h-6 text-purple-300"
                                             fill="currentColor"
@@ -126,8 +126,8 @@ const ClientFeedback = () => {
                                     </div>
 
                                 </div>
-                                <div className="">
-                                    <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mx-auto w-[95%] max-w-2xl relative">
+                                <div data-aos="fade-up" className="">
+                                    <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mx-auto w-[95%]  relative">
                                         <svg
                                             className="absolute top-3 sm:top-4 lg:top-6 left-3 sm:left-4 lg:left-6 w-5 sm:w-6 h-5 sm:h-6 text-purple-300"
                                             fill="currentColor"
@@ -153,8 +153,8 @@ const ClientFeedback = () => {
                                     </div>
 
                                 </div>
-                                <div className="">
-                                    <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mx-auto w-[95%] max-w-2xl relative">
+                                <div data-aos="fade-up" className="">
+                                    <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mx-auto w-[95%]  relative">
                                         <svg
                                             className="absolute top-3 sm:top-4 lg:top-6 left-3 sm:left-4 lg:left-6 w-5 sm:w-6 h-5 sm:h-6 text-purple-300"
                                             fill="currentColor"

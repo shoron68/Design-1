@@ -18,20 +18,20 @@ const WorkExperience = () => {
       <Container>
         <div className="bg-gradient-to-br from-white via-blue-50 to-white lg:rounded-2xl pb-16 shadow">
           <section className="text-center py-16 px-4">
-            <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4">
+            <div data-aos="fade-up" className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4">
               <FaCircle className="text-[8px] text-blue-500" />
               Professional Journey
             </div>
 
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Work Experience
             </h2>
 
-            <p className="text-gray-600 text-base max-w-2xl mx-auto mb-6">
+            <p data-aos="fade-up" className="text-gray-600 text-base max-w-2xl mx-auto mb-6">
               My journey as a developer, highlighting key roles and professional achievements.
             </p>
 
-            <a href="#" className="text-blue-600 font-medium text-sm inline-flex items-center gap-1 hover:underline">
+            <a data-aos="fade-up" href="#" className="text-blue-600 font-medium text-sm inline-flex items-center gap-1 hover:underline">
               View Full Resume <span>→</span>
             </a>
           </section>
@@ -40,7 +40,7 @@ const WorkExperience = () => {
 
 
 
-          <div className=" p-10">
+          <div data-aos="fade-up" className=" p-10">
             <div className="lg:flex relative">
 
 
